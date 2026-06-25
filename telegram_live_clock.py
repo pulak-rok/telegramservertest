@@ -2,7 +2,7 @@ import asyncio
 from datetime import datetime, timezone, timedelta
 import httpx
 
-BOT_TOKEN = "8906330737:AAHoSB6YZXCTGEqkuKeVYACgJqhyefvb3Vk"
+BOT_TOKEN = "token"
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 BD_TZ = timezone(timedelta(hours=6))
